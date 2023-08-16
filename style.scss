@@ -1,0 +1,264 @@
+
+.section3{
+    max-width: 1440px;
+    margin: 0 auto;
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        margin: -800px auto;
+        justify-content: space-evenly;
+        .box1{
+            max-width: 424px;
+            background-color: #fff;
+            box-sizing: border-box;
+            height: 430px;
+            .img1{
+                max-width: 100%;
+            }
+            .txt{
+                color: #000;
+                font-family: Raleway;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                padding: 0px 10px;
+            }
+            a{
+                text-decoration: none;
+                color: #4BA87D;
+                font-family: Raleway;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 19px; 
+                padding: 0 10px;            
+            }
+        }
+        .box2{
+            margin-top: 81px;
+        }
+        .box3{
+            margin-top: 136px;
+            .title{
+                width: 400px;
+                color: #000;
+                font-family: Playfair Display;
+                font-size: 44px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 48px;
+                margin-bottom: 30px;
+            }
+            .body{
+                color: #000;
+                font-family: Raleway;
+                font-size: 19px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 26px; 
+                width: 300px;
+            }
+        }
+    }
+}
+.section4{
+    max-width: 1440px;
+    .imgs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        margin-top: 1000px;
+    }
+    .title{
+        color: #000;
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+        width: 904px;
+        height: 126px;
+        margin: 0 auto;
+        margin-top: 47px;
+    }
+    input{
+        width: 420px;
+        height: 65px;
+        border-radius: 5px;
+        border: 1px solid #9F9F9F;
+        background: #FFF;
+        margin-left: 378px;
+        font-size: 21px;
+        padding-left: 25px;
+    }
+    button{
+        width: 221px;
+        height: 65px;
+        background: #4BA87D;
+        color: #FFF;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 21px;
+        font-weight: 900;
+        line-height: 25px; /* 119.048% */
+        letter-spacing: 1.05px;
+        border: none;
+        margin-top: 15px;
+        margin-left: 27px;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    a{
+        color: #4BA87D;
+        font-family: Raleway;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 25px; /* 119.048% */
+        letter-spacing: 1.05px;
+        text-decoration: none;
+        display: block;
+        cursor: pointer;
+        margin-left: 381px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 768px){
+.section3{
+    max-width: 768px;
+    margin: 0 auto;
+    .back{
+        width: 768px;
+    }
+    .box{
+        display: flex;
+        // flex-wrap: wrap;
+        margin: 0px auto;
+        width: 768px;
+        justify-content: space-evenly;
+        .box1{
+            max-width: 171px;
+            background-color: #fff;
+            box-sizing: border-box;
+            height: 430px;
+            // .img1{
+            //     max-width: 100%;
+            // }
+            .txt{
+                color: #000;
+                font-family: Raleway;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                padding: 0px 10px;
+            }
+            a{
+                text-decoration: none;
+                color: #4BA87D;
+                font-family: Raleway;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 19px; 
+                padding: 0 10px;            
+            }
+        }
+        .box2{
+            margin-top: 81px;
+        }
+        .box3{
+            margin-top: 136px;
+            .title{
+                width: 300px;
+                color: #000;
+                font-family: Playfair Display;
+                font-size: 44px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 48px;
+                margin-top: 30px;
+            }
+            .body{
+                color: #000;
+                font-family: Raleway;
+                font-size: 19px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 26px; 
+                
+                width: 300px;
+            }
+        }
+    }
+}
+.section4{
+    max-width: 768px;
+    .imgs{
+        display: flex;
+        // flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        margin-top: 100px;
+        img{
+            margin-top: 50px;
+        }
+    }
+    .title{
+        color: #000;
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+        width: 239px;
+        height: 126px;
+        margin: 0 auto;
+        margin-top: 47px;
+    }
+    input{
+        width: 420px;
+        height: 65px;
+        border-radius: 5px;
+        border: 1px solid #9F9F9F;
+        background: #FFF;
+        // margin-left: 78px;
+        font-size: 21px;
+        padding-left: 25px;
+    }
+    button{
+        width: 221px;
+        height: 65px;
+        background: #4BA87D;
+        color: #FFF;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 21px;
+        font-weight: 900;
+        line-height: 25px; /* 119.048% */
+        letter-spacing: 1.05px;
+        border: none;
+        margin-top: 15px;
+        margin-left: 27px;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    a{
+        color: #4BA87D;
+        font-family: Raleway;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 25px; /* 119.048% */
+        letter-spacing: 1.05px;
+        text-decoration: none;
+        display: block;
+        cursor: pointer;
+        margin-left: 381px;
+        margin-top: 20px;
+    }
+}
+}
