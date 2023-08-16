@@ -1,0 +1,127 @@
+.section3 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.section3 .box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -800px auto;
+  justify-content: space-evenly;
+}
+.section3 .box .box1 {
+  max-width: 271px;
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 430px;
+}
+.section3 .box .box1 .img1 {
+  max-width: 100%;
+}
+.section3 .box .box1 .txt {
+  color: #000;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 0px 10px;
+}
+.section3 .box .box1 a {
+  text-decoration: none;
+  color: #4BA87D;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 19px;
+  padding: 0 10px;
+}
+.section3 .box .box2 {
+  margin-top: 81px;
+}
+.section3 .box .box3 {
+  margin-top: 136px;
+}
+.section3 .box .box3 .title {
+  width: 400px;
+  color: #000;
+  font-family: Playfair Display;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+}
+.section3 .box .box3 .body {
+  color: #000;
+  font-family: Raleway;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: -20px;
+  width: 300px;
+}
+
+.section4 {
+  max-width: 1440px;
+}
+.section4 .imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 1000px;
+}
+.section4 .title {
+  color: #000;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px;
+  width: 904px;
+  height: 126px;
+  margin: 0 auto;
+  margin-top: 47px;
+}
+.section4 input {
+  width: 420px;
+  height: 65px;
+  border-radius: 5px;
+  border: 1px solid #9F9F9F;
+  background: #FFF;
+  margin-left: 378px;
+  font-size: 21px;
+  padding-left: 25px;
+}
+.section4 button {
+  width: 221px;
+  height: 65px;
+  background: #4BA87D;
+  color: #FFF;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 21px;
+  font-weight: 900;
+  line-height: 25px; /* 119.048% */
+  letter-spacing: 1.05px;
+  border: none;
+  margin-top: 15px;
+  margin-left: 27px;
+}
+.section4 button:hover {
+  cursor: pointer;
+}
+.section4 a {
+  color: #4BA87D;
+  font-family: Raleway;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25px; /* 119.048% */
+  letter-spacing: 1.05px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  margin-left: 381px;
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */
