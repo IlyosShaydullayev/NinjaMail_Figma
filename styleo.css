@@ -1,5 +1,12 @@
 body{
     box-sizing: border-box;
+    position: relative;
+}
+.background-elements{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    z-index: -1;
 }
 header{
 width: 1476.313px;
@@ -31,6 +38,7 @@ flex-shrink: 0;
 display: flex;
 }
 .nav-item a{
+    border-bottom: none;
    margin-left: 15px; 
    color: #000;
    text-decoration: none;
@@ -43,8 +51,11 @@ letter-spacing: 1.275px;
 }
 .nav-item a:hover{
     color: green;
+    border-bottom: 4px solid green;
+    
 }
 .nav-item button{
+    border-color:#4BA87D ;
     margin-left: 20px;
     width: 168px;
 height: 41px;
@@ -69,7 +80,7 @@ height: 383px;
 flex-shrink: 0;
 display: flex;
 margin-top: 103px;
-margin-left: 165px;
+margin-left: 170px;
 display: flex;
 }
 .header-texts{
@@ -95,6 +106,9 @@ font-style: normal;
 font-weight: 500;
 line-height: 26px;
 }
+.div_buttons  :last-child{
+    margin-left: 45px;
+}
 .header-texts button{
     width: 200px;
     height: 65px;
@@ -115,10 +129,11 @@ letter-spacing: 2.1px;
     background: #4BA87D;
 }
 .header-img img{
-    width: 721.357px;
-height: 481.188px;
+    margin-top: 15px;
+    width: 680px;
+height: 383px;
 flex-shrink: 0;
-margin-left: -100px;
+margin-left: -85px;
 z-index: 1;
 }
 .section-1{
@@ -128,7 +143,7 @@ z-index: 1;
     align-items: center;
 }
 .section-1 div{
-    margin-top: 150px;
+    margin-top: 185px;
     margin-left: 260px;
     text-align: center;
     width: 944px;
@@ -166,11 +181,20 @@ letter-spacing: 2.1px;
     background: #4BA87D;
 }
 @media (max-width:768px){
+    body{
+        width: 768px;
+    }
+    .background-elements{
+        top:66px;
+        width: 815px;
+
+flex-shrink: 0;
+    }
     header{
         width: 768px;
         flex-shrink: 0;
         border: 1px solid white;
-        height: 500px;
+        height: 430px;
         }
         nav{
             width: 768px;
@@ -213,7 +237,7 @@ letter-spacing: 2.1px;
         .header-elements{
             width: 711px;
         height: 250px;
-        margin-top: 67px;
+        margin-top: 50px;
         margin-left: 30px;
         }
         .header-texts{
@@ -231,6 +255,9 @@ letter-spacing: 2.1px;
         font-size: 12px;
         line-height: 16px;
         }
+        .div_buttons :last-child{
+            margin-left: 29px;
+        }
         .header-texts button{
             width: 131px;
             height: 42px;
@@ -239,8 +266,8 @@ letter-spacing: 2.1px;
         letter-spacing: 0.65px;
         }
         .header-img img{
-            width: 472px;
-        height: 314px;
+            width: 445px;
+        height: 250px;
         margin-left: -80px;
         }
         .section-1{
@@ -250,10 +277,10 @@ letter-spacing: 2.1px;
             align-items: center;
         }
         .section-1 div{
-            margin-top: 80px;
+            margin-top: 0px;
             margin-left: 68px;
             width: 616px;
-            height: 409px;
+            height: 347px;
             margin-bottom: 50px;
         }
         .section-1  p{
@@ -348,7 +375,7 @@ letter-spacing: 2.1px;
             align-items: center;
         }
         .section-1 div{
-            margin-top: 80px;
+            margin-top: 0px;
             margin-left: 68px;
             width: 616px;
             height: 409px;
