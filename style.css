@@ -5,7 +5,7 @@
 .section3 .box {
   display: flex;
   flex-wrap: wrap;
-  margin: -800px auto;
+  margin: 0px auto;
   justify-content: space-evenly;
 }
 .section3 .box .box1 {
@@ -63,6 +63,7 @@
 
 .section4 {
   max-width: 1440px;
+  margin-top: 0px;
 }
 .section4 .imgs {
   display: flex;
