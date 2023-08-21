@@ -1,11 +1,12 @@
 
 .section3{
+    border: 1px solid;
     max-width: 1440px;
     margin: 0 auto;
     .box{
         display: flex;
         flex-wrap: wrap;
-        margin: -800px auto;
+        margin: 0px auto;
         justify-content: space-evenly;
         .box1{
             max-width: 424px;
@@ -63,6 +64,7 @@
 }
 .section4{
     max-width: 1440px;
+    margin-top: 0px;
     .imgs{
         display: flex;
         flex-wrap: wrap;
@@ -130,9 +132,9 @@
 .section3{
     max-width: 768px;
     margin: 0 auto;
-    .back{
-        width: 768px;
-    }
+    // .back{
+    //     width: 768px;
+    // }
     .box{
         display: flex;
         // flex-wrap: wrap;
